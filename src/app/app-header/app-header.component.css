@@ -2,6 +2,18 @@
     flex: 1;
   }
 
+  .align-center {
+    text-align: center;
+    align-items: center;
+  }
+
+  .search-bar {
+    height: 35px;
+    width: 350px;
+    font-size: 22px;
+    margin-right: 5px;
+  }
+
   .toolbar {
     position: absolute;
     top: 0;
@@ -19,18 +31,23 @@
     margin: 0 16px;
   }
 
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 8px;
+  .material-icons.color_white { 
+    color: #ffffff; 
+    padding-right: 20px;
   }
 
-  .toolbar #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
+  .material-icons.large {
+    font-size: 32px;
   }
 
-  .toolbar #twitter-logo:hover,
-  .toolbar #youtube-logo:hover {
-    opacity: 0.8;
+  .logo {
+    color: white;
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 30px;
   }
 
+  .material-icons.logo {
+    color: white;
+    padding-left: 20px;
+  }
