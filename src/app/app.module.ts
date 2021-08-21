@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { RecipeCardComponent } from './recipe-card/recipe-card.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AppHeaderComponent,
-    RecipeCardComponent
+    RecipeCardComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
