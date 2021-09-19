@@ -1,22 +1,9 @@
 <div class="card-container">
-  <app-recipe-card
-  image="https://d1uz88p17r663j.cloudfront.net/resized/1a69f85aabec474eb02d4c875c0de560_iStock-835903320_1500_700.jpg"
-    title="Buffalo chicken wings"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel vestibulum lectus. "
+  
+  <app-recipe-card *ngFor="let recipe of recipeList"
+    image="{{recipe.imagePath}}"
+    title="{{recipe.name}}"
+    description="{{recipe.description}}"
   ></app-recipe-card>
-  <app-recipe-card
-  image="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/4/2/0/WU0410H_cheesy-hash-brown-casserole-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1558025942849.jpeg"
-    title="Hash brown casserole"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel vestibulum lectus. "
-  ></app-recipe-card>
-  <app-recipe-card
-  image="https://natashaskitchen.com/wp-content/uploads/2019/10/Apple-Pie-2.jpg"
-    title="Apple pie"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel vestibulum lectus. "
-  ></app-recipe-card>
-  <app-recipe-card
-  image="https://littlespicejar.com/wp-content/uploads/2019/06/The-Easiest-Eggless-Tiramisu-14.jpg"
-    title="Tiramisu"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel vestibulum lectus. "
-  ></app-recipe-card>
+
 </div>
